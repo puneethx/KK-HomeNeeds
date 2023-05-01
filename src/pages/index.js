@@ -4,8 +4,8 @@ import {Product,FooterBanner,HeroBanner} from '../../components';
 
 const Home = () => {
   return (
-    <>
-      HeroBanner
+    <div>
+      <HeroBanner/>
       <div className='products-heading'>
         <h2>Best Selling Products</h2>
         <p>Stoves of many variations</p>
@@ -14,8 +14,8 @@ const Home = () => {
       <div className='products-container'>
         {['Product 1','Product 2'].map((product) => product)}
       </div>
-      Footer
-      </>
+      <FooterBanner/>
+      </div>
       
   ) 
 }
