@@ -150,3 +150,29 @@ a {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #192b3b;
   }
+
+  .footer-banner-container{
+    padding:100px 40px;
+    background-color: #f02d34;
+    border-radius: 15px;
+    position: relative;
+    height: 400px;
+    line-height: 1;
+    color:white;
+    width:100%;
+    margin-top: 120px;
+  }
+
+  .banner-desc{
+    display: flex;
+    justify-content: space-between;
+  }
+  .banner-desc .left h3{
+    font-weight: 900;
+    font-size: 80px;
+    margin-left: 25px;
+    text-transform: uppercase;
+  }
+  .banner-desc .left p{
+    margin:18px;
+  }
